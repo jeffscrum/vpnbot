@@ -22,7 +22,7 @@ RUN apk add --update openssh \
     gperf \
     protobuf-c-compiler \
     git \
-    && git clone https://gitlab.com/openconnect/ocserv.git \
+    && git clone --depth 1 --branch 1.2.4 https://gitlab.com/openconnect/ocserv.git \
     && cd /ocserv \
     && autoreconf -fvi \
     && ./configure \
