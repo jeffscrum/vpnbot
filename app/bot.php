@@ -3068,16 +3068,16 @@ DNS-over-HTTPS with IP:
                             'callback_data' => "/menu config",
                         ],
                     ],
-                    [
-                        [
-                            'text' => $this->i18n('chat'),
-                            'url'  => "https://t.me/+bUuWfsKzaMZhNjQy",
-                        ],
-                        [
-                            'text' => $this->i18n('donate'),
-                            'url'  => "https://yoomoney.ru/to/410011827900450",
-                        ],
-                    ],
+                    // [
+                    //     [
+                    //         'text' => $this->i18n('chat'),
+                    //         'url'  => "https://t.me/+bUuWfsKzaMZhNjQy",
+                    //     ],
+                    //     [
+                    //         'text' => $this->i18n('donate'),
+                    //         'url'  => "https://yoomoney.ru/to/410011827900450",
+                    //     ],
+                    // ],
                 ],
             ],
             'wg'           => $type == 'wg'           ? $this->statusWg($arg) : false,
